@@ -1,0 +1,23 @@
+Task 1: Simple Programs todo for variables
+1. Declare four variables without assigning values and print them in console
+Ans:
+var a,b,c,d;
+console.log(a,b,c,d);
+
+2. How to get value of the variable myvar as output
+var myvar= 1;
+console.log(myvar);
+
+3.Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+string first name;
+string last name;
+string marital status;
+string country;
+var age;
+
+4. Declare variables to store your first name, last name, marital status, country and age in a single line
+
+string first name, last name,  marital status, country;
+var age;
+
