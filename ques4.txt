@@ -274,6 +274,37 @@ For example, a consumer consumes 100 watts per hour daily for one month.
 
 21. Program To Calculate CGPA
 
+Task 3: Simple Programs todo for Condition , Looping and Arrays
+
+1. Write a loop that makes seven calls to console.log to output the following triangle:
+
+for (let line = "#"; line.length < 8; line += "#")
+  console.log(line);
+
+2. var myarray=[11,22,33,44,55]
+
+write a code to count the elements in the array . Don’t use length property
+
+sizeof(myarray);
+
+Declare an empty array;
+
+var a=[];
+
+Create an array called foods holds the names of your top 20 favorite foods, starting with the best food.😋
+
+let foods=["Sambar rice", "panirpuri", "gobi manchurian", "curd rice", "panner tika", "fried rice", "Biriyani", "Brinjal curry",
+"Masala Dosa", "chappati", "egg bhurji", "Fish curry", "mushroom pepper fry", "Vegetable pulao", "Ladys finger fry",
+"Sandwich", " Mini Idly", "Chilly parotta", "Chicken 65", "Prawn dum biriyani"] ;
+
+Foods variable holds the names of your top 20 favorite foods, starting with the best food. 
+How can you find your fifth favorite food?
+
+console.log(food[4]);
+
+Find the length of your foods array
+
+console.log(food.length);
 
 
 
