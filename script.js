@@ -17,8 +17,8 @@ let obj2 = {
  
 console.log(areObjectsEqual(obj1, obj2));
 
-//output:
-//true
+//Output:
+false
 
 //day 3 - question2
 //use the rest countries api url and display all the country flag in console

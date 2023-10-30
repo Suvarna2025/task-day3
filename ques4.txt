@@ -21,3 +21,270 @@ var age;
 string first name, last name,  marital status, country;
 var age;
 
+ 5. Declare variables and assign string, boolean, undefined and null data types
+
+ // Strings:
+let color = "Purple";
+
+// Booleans
+let x = true;
+let y = false;
+
+//undefined
+let a;
+let name;
+
+//Null
+let a=""
+
+6.Convert string into integer
+
+//parseInt()
+function convertStoI() {
+    let a = "100";
+    let b = parseInt(a);
+    console.log("Integer value is" + b);
+    let d = parseInt("3 11 43");
+    console.log('Integer value is ' + d);
+}
+convertStoI();
+
+Output:
+100
+3
+
+//number()
+let age = "23";
+let name = "Manya";
+console.log(Number(age));
+console.log(Number(name)) ;
+
+//Plus+
+let age = "23";
+let name = "Manya";
+const number = '100';
+console.log(+age);
+console.log(+name);
+console.log(+number);
+
+Output:
+23
+NaN
+100
+
+Write 6 statement which provide truthy & falsey values.
+
+False values
+let a;//undefined
+let b = " "; //empty
+let c = 0; // zero
+
+True values
+let a=10; //value
+let b= [1,2,3,4]; //array
+let car= {"color": "white", "model": "Hyundai Venue"}; //object
+
+Task 2: Simple Programs todo for Operators
+
+1. Square of a number
+ 
+ let a=3;
+ let b=2;
+ console.log(Math.pow(a,b));
+
+ Output: 3
+
+ 2. Swapping the number
+ 
+    var a = 5;
+    var b = 25;
+    var temp;
+ 
+    console.log("before swapping a and b :", a,b);
+     
+    temp = a;
+    a = b;
+    b = temp;
+ 
+    console.log("after swapping a and b :", a,b);
+
+    Output:
+    before swapping a and b : 5 25
+    after swapping a and b : 25 5
+
+    3. Addition of 3 number
+    
+    let a=10;
+    let b=3;
+    let c=2;
+    console.log("Answer:", a+b+c);
+
+    Output
+    Answer: 15
+
+    4. Celsius to Fahrenheit conversion
+
+    let c=90;
+    let f = (c*9/5)+32;
+    console.log("Fahrenheit conversion:", f);
+
+    Output
+    Fahrenheit conversion: 194
+
+    5. Meter to miles
+
+    let meter=2000;
+    let miles = meter*0.00062137;
+    console.log("Meter to miles:", meter);
+
+    Output
+   Meter to miles: 1.24274
+
+    6. Pounds to kg
+
+    let pound= 50;
+    let kg = pound/2.2046;
+    console.log("Pounds to kg:", pound);
+
+    Output
+    Pounds to kg: 22.6798
+
+    7. Calculate Batting Average
+
+    let run= 10000;
+    let matches = 250;
+    let notout= 50;
+    let dismissed = matches - notout;
+    let batavg= run/dismissed;
+    console.log("Batting Average: ",batavg);
+
+    Output
+    Batting Average: 50
+
+ 8. Calculate five test scores and print their average
+
+    let a=89;
+    let b=87;
+    let c=92;
+    let d=90;
+    let e=98;
+    let avg= (a+b+c+d+e)/5 ;
+    console.log("Average:", avg);
+
+    Output
+    Average: 91.2
+
+9. Power of any number x ^ y.
+
+let a=3;
+ let b=2;
+ console.log(Math.pow(a,b));
+
+ Output: 
+ 9
+
+10. Calculate Simple Interest
+
+let p=2000;
+let n=2;
+let r=5;
+let si = (p*n*r)/100;
+ console.log("Simple Interest:", si);
+
+ Output: 
+Simple Interest: 200
+
+11. Calculate Area of an equilateral triangle
+
+let side=5;
+let area= (Math.sqrt(3)/4)*side*side;
+console.log(area);
+
+Output:
+10.825
+
+12. Area Of Isosceles Triangle
+
+let base=4;
+let height=10;
+let area = (base*height)/2
+
+Output:
+20
+
+13. Volume Of Sphere
+
+var r = 7;
+var v = (4/3)*22/7 *r*r*r;
+console.log(v);
+
+Output:
+1437.33
+
+14. Volume of Prism
+
+var b=5;
+var h=4;
+var V=b*h;
+console.log(v);
+
+Output:
+20
+
+15. Find area of a triangle.
+
+var b=5;
+var h=4;
+var A= (b*h)/2;
+console.log(A);
+
+Output:
+10
+
+16. Give the Actual cost and Sold cost, Calculate Discount Of Product.
+
+17. Given their radius of a circle and find its diameter, circumference and area.
+
+18. Given two numbers and perform all arithmetic operations.
+var a=8;
+var b=4;
+var c= a+b;
+var d= a-b;
+var e = a/b;
+var f = a*b;
+var g =a%b;
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(g);
+
+19. Display the asterisk pattern 
+
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+console.log("*****");
+
+20. Calculate electricity bill?
+For example, a consumer consumes 100 watts per hour daily for one month.
+ Calculate the total energy bill of that consumer if per unit rate is 10?
+
+21. Program To Calculate CGPA
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
