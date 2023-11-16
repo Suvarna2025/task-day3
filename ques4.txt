@@ -243,7 +243,20 @@ Output:
 
 16. Give the Actual cost and Sold cost, Calculate Discount Of Product.
 
+var cost=1000;
+var scost=750;
+var disc= cost-scost;
+var disountcpercentage = (disc/cost)*100;
+
 17. Given their radius of a circle and find its diameter, circumference and area.
+
+var rad=6;
+var dia=r*2;
+var cir=2*3.14*r;
+var area= 3.14*r*r;
+console.log("Diameter",dia);
+console.log("circumference",cir);
+console.log("Area",area);
 
 18. Given two numbers and perform all arithmetic operations.
 var a=8;
@@ -268,18 +281,48 @@ console.log("*****");
 console.log("*****");
 console.log("*****");
 
-20. Calculate electricity bill?
+20. Calculate Electricity bill?
 For example, a consumer consumes 100 watts per hour daily for one month.
- Calculate the total energy bill of that consumer if per unit rate is 10?
+ Calculate the total energy bill of that consumer if per Unit rate is 10?
+
+ var w=100;  // (per hour)
+ var wmonth= 100*24*30;
+ var unit=  wmonth/100 ;  //(0.1 unit for 100 watt)
+ var cost= unit*10;
+ console.log("Electricity bill cost:",cost);
+
+ o/p: Electricity bill cost:7200
+
+
 
 21. Program To Calculate CGPA
 
-Task 3: Simple Programs todo for Condition , Looping and Arrays
+var gradepoint=54;
+var sub=6;
+var cgpa= grade/sub;
+console.log("CGPA is",cgpa);
+
+o/p: CGPA is 9
+
+
+
+Task 3: Simple Programs todo for Condition, Looping and Arrays
 
 1. Write a loop that makes seven calls to console.log to output the following triangle:
 
 for (let line = "#"; line.length < 8; line += "#")
   console.log(line);
+
+2. Iterate through the string array and print it contents
+
+Answer:
+var srtarrray=[ "<option>Jazz</option>" ,"<option>Blues</option>","<option>New age</option>",
+"<option>classical</option>" , "<option>Opera</option>"  ]
+
+for( var i=0;i<=srtarray.length;i++)
+{
+  console.log(srtarray[i];)
+}
 
 2. var myarray=[11,22,33,44,55]
 
@@ -291,23 +334,45 @@ Declare an empty array;
 
 var a=[];
 
-Create an array called foods holds the names of your top 20 favorite foods, starting with the best food.😋
+//Create an array called foods hold the names of your top 20 favorite foods, starting with the best food.😋
 
 let foods=["Sambar rice", "panirpuri", "gobi manchurian", "curd rice", "panner tika", "fried rice", "Biriyani", "Brinjal curry",
-"Masala Dosa", "chappati", "egg bhurji", "Fish curry", "mushroom pepper fry", "Vegetable pulao", "Ladys finger fry",
+"Masala Dosa", "chappati", "egg bhurji", "Fish curry", "mushroom pepper fry", "Vegetable pulao", "Lady's finger fry",
 "Sandwich", " Mini Idly", "Chilly parotta", "Chicken 65", "Prawn dum biriyani"] ;
 
-Foods variable holds the names of your top 20 favorite foods, starting with the best food. 
+//Foods variable holds the names of your top 20 favorite foods, starting with the best food. 
 How can you find your fifth favorite food?
 
 console.log(food[4]);
 
-Find the length of your foods array
+Find the length of your food array
 
 console.log(food.length);
 
+ARRAY
 
+//Starting from the friends variable below, Loop and print the names till you meet the CaptainAmerica.
 
+const friends=["Mari", "MaryJane", "CaptainAmerica", "Munnabai", "Jeff", "AAKChandran"];
+
+for(var i=0;i<2;i++)
+{
+  console.log(friends[i]);
+}
+
+//Get the first item, last item and middle item of the array
+
+var a=[1,2,3,4,5];
+console.log(a[0]);// first item
+console.log(a[a.length-1]); //last item
+console.log(a[(a.length-1)/2]);// middle item
+
+//Add names of the friends array at the end and the beginning
+
+const friends=["Mari", "MaryJane", "CaptainAmerica", "Munnabai", "Jeff", "AAKChandran"];
+friends.unshift("Sandy");//first
+friends.push("Heera");//end
+console.log(friends);
 
 
 
